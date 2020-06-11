@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="git://github.com/" />
+  <remote  name="codeaurora"
+           fetch="https://source.codeaurora.org/" />
+  <default revision="master"
+           remote="github"
+           sync-s="true"
+           sync-c="true" />
+
+  <project path="atf" remote="codeaurora" name="external/imx/imx-atf" revision="imx_5.4.3_2.0.0" />
+  <project path="u-boot" name="Gateworks/uboot-venice" revision="v2020.04-venice" />
+  <project path="linux" name="Gateworks/linux-venice" revision="v5.4.45-venice" />
+  <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" />
+  <project path="venice" name="Gateworks/bsp-venice">
+    <linkfile src="Makefile" dest="Makefile"/>
+    <linkfile src="setup-environment" dest="setup-environment"/>
+  </project>
+</manifest>
