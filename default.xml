@@ -10,7 +10,7 @@
            sync-c="true" />
 
   <project path="buildroot" name="buildroot/buildroot.git" revision="2020.05.x" />
-  <project path="atf" remote="codeaurora" name="external/imx/imx-atf" revision="imx_5.4.3_2.0.0" />
+  <project path="atf" name="Gateworks/atf-venice" revision="imx_5.4.3_2.0.0" />
   <project path="u-boot" name="Gateworks/uboot-venice" revision="v2020.04-venice" />
   <project path="linux" name="Gateworks/linux-venice" revision="v5.4.45-venice" />
   <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" />
