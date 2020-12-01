@@ -4,6 +4,8 @@
            fetch="git://github.com/" />
   <remote  name="codeaurora"
            fetch="https://source.codeaurora.org/" />
+  <remote  name="wireguard"
+           fetch="https://git.zx2c4.com/" />
   <default revision="master"
            remote="github"
            sync-s="true"
@@ -15,6 +17,7 @@
   <project path="linux" name="Gateworks/linux-venice" revision="v5.4.45-venice" />
   <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" />
   <project path="cyw-fmac" name="murata-wireless/cyw-fmac" revision="imx-zeus-zigra" />
+  <project remote="wireguard" path="wireguard-linux-compat" name="wireguard-linux-compat" revision="master" />
   <project path="venice" name="Gateworks/bsp-venice">
     <linkfile src="setup-environment" dest="setup-environment"/>
     <linkfile src="buildroot-imx8mm_venice_defconfig" dest="buildroot/configs/imx8mm_venice_defconfig" />
