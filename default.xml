@@ -14,12 +14,10 @@
   <project path="buildroot" name="buildroot/buildroot.git" revision="2020.05.x" />
   <project path="atf" name="Gateworks/atf-venice" revision="imx_5.4.3_2.0.0" />
   <project path="u-boot" name="Gateworks/uboot-venice" revision="v2021.01-venice" />
-  <project path="linux" name="Gateworks/linux-venice" revision="v5.4.45-venice" />
+  <project path="linux" name="Gateworks/linux-venice" revision="v5.10.18-venice" />
   <project path="nrc7292" name="Gateworks/nrc7292" />
   <project path="ftdi-usb-spi" name="Gateworks/ftdi-usb-spi" />
   <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" />
-  <project path="cyw-fmac" name="murata-wireless/cyw-fmac" revision="imx-zeus-zigra" />
-  <project remote="wireguard" path="wireguard-linux-compat" name="wireguard-linux-compat" revision="master" />
   <project path="venice" name="Gateworks/bsp-venice">
     <linkfile src="setup-environment" dest="setup-environment"/>
     <linkfile src="buildroot-imx8mm_venice_defconfig" dest="buildroot/configs/imx8mm_venice_defconfig" />
