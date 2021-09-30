@@ -2,10 +2,6 @@
 <manifest>
   <remote  name="github"
            fetch="git://github.com/" />
-  <remote  name="codeaurora"
-           fetch="https://source.codeaurora.org/" />
-  <remote  name="wireguard"
-           fetch="https://git.zx2c4.com/" />
   <default revision="master"
            remote="github"
            sync-s="true"
