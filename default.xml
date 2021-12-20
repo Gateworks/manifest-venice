@@ -11,7 +11,7 @@
   <project path="atf" name="Gateworks/atf-venice" revision="lf_v2.4" />
   <project path="u-boot" name="Gateworks/uboot-venice" revision="v2021.07-venice" />
   <project path="linux" name="Gateworks/linux-venice" revision="v5.10.76-venice" />
-  <project path="nrc7292" name="Gateworks/nrc7292" />
+  <project path="nrc7292" name="Gateworks/nrc7292" revision="v1.3.3-gateworks" />
   <project path="ftdi-usb-spi" name="Gateworks/ftdi-usb-spi" />
   <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" />
   <project path="venice" name="Gateworks/bsp-venice">
