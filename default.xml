@@ -17,6 +17,7 @@
   <project path="venice" name="Gateworks/bsp-venice">
     <linkfile src="setup-environment" dest="setup-environment"/>
     <linkfile src="buildroot-imx8mm_venice_defconfig" dest="buildroot/configs/imx8mm_venice_defconfig" />
+    <linkfile src="buildroot-0001-e2tools-resize-if-the-parent-dir-runs-out-of-space.patch" dest="buildroot/package/e2tools/0001-e2tools-resize-if-the-parent-dir-runs-out-of-space.patch" />
     <linkfile src="Makefile" dest="Makefile"/>
   </project>
 </manifest>
