@@ -10,7 +10,7 @@
   <project path="buildroot" name="buildroot/buildroot.git" revision="2022.05.x" />
   <project path="atf" name="Gateworks/atf-venice" revision="lf_v2.4" />
   <project path="u-boot" name="Gateworks/uboot-venice" revision="v2023.04-venice" />
-  <project path="linux" name="Gateworks/linux-venice" revision="v6.6.8-venice" />
+  <project path="linux" name="Gateworks/linux-venice" revision="v6.12-venice" />
   <project path="nrc7292" name="Gateworks/nrc7292" revision="v1.5.1-gateworks" />
   <project path="ftdi-usb-spi" name="Gateworks/ftdi-usb-spi" />
   <project path="cryptodev-linux" name="cryptodev-linux/cryptodev-linux" />
