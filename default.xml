@@ -7,7 +7,7 @@
            sync-s="true"
            sync-c="true" />
 
-  <project path="buildroot" name="buildroot/buildroot.git" revision="2022.05.x" />
+  <project path="buildroot" name="buildroot/buildroot.git" revision="2026.05.x" />
   <project path="atf" name="Gateworks/atf-venice" revision="lf_v2.4" />
   <project path="u-boot" name="Gateworks/uboot-venice" revision="v2024.10-venice" />
   <project path="linux" name="Gateworks/linux-venice" revision="v6.18.29-venice" />
@@ -15,7 +15,6 @@
   <project path="venice" name="Gateworks/bsp-venice">
     <linkfile src="setup-environment" dest="setup-environment"/>
     <linkfile src="buildroot-imx8mm_venice_defconfig" dest="buildroot/configs/imx8mm_venice_defconfig" />
-    <linkfile src="buildroot-0001-e2tools-resize-if-the-parent-dir-runs-out-of-space.patch" dest="buildroot/package/e2tools/0001-e2tools-resize-if-the-parent-dir-runs-out-of-space.patch" />
     <linkfile src="Makefile" dest="Makefile"/>
   </project>
 </manifest>
